@@ -1,5 +1,5 @@
 # CV. Reviewer and coder.
-I'm read, understand and write code. In my work I use mind, experience, common sense and suitable software.
+I read, understand and write code. In my work I use mind, experience, common sense and suitable software.
 
 ## Personal information
 Name: Kyrylo Fedorov
