@@ -16,7 +16,7 @@ Full stack, both, server's with `node.js` and browser's side develop.
 Vanilla js and frameworks, such `sails.js` for server and `angular` (version 1.*), backbone, knockout or other for client.
 Have experience with using thirds party API or library for resolving specific issues.
 I'm follower of TDD and prefer to use `mocha`, `chai` and `sinon` to be sure that I write code complies to wrote unit-test and my commits into VCS will not break builds in CI.
-And of cause I have some experience with all around:
+And of course I have some experience with all around:
  - automated build tools: webpack, gulp, grunt;
  - layout with html or different template engines;
  - styling with scss, less and native css;
@@ -24,8 +24,8 @@ And of cause I have some experience with all around:
 ### database
 I have experience with using various database directly or via different ORMs.
 Both, *relation database*, like `PostgreSQL`, `MySQL` and *noSQL*, like `MongoDB`. Also, very early, DBMS like `FoxPro`, `Clarion`, etc.
-I can read and write native SQL query, and optimizing heavy query. Also hove some experience with writing stored procedures.
- 
+I can read and write native SQL query, and optimizing heavy query. Also have some experience with writing stored procedures.
+
 ### php
 It's almost background experience, for now I have not plan to code on it again.
 Early I work with numbers of services write on PHP, native and with frameworks.
@@ -40,7 +40,7 @@ Some development'n'operations experience.
 ### 10.2014 - present. Contractor at Reaktivate.
 Developer on project "QuickEstate" - service in assistance in estate's executing.
 Technologies: `node.js` framework `sails` for back-end, `angular` as framework for client side Single Page Application. Build system `webpack`. Unit-testing with `mocha` and `karma-runner` in CI and in TDD with code coverage. Automation QA based on features description with `gherkin`.
- 
+
 ### 11.2013 - 09.2014. Contractor at ECO&Tech.
 Functional for project "Wind of Travel" - service for planning travels and sharing significant waypoints.
 Technologies: `Leaflet` - javascript library for interactive map, `Symfony` - back-end for manage and processing gpx/kml data.
