@@ -3,10 +3,15 @@ I'm read, understand and write code. In my work I use mind, experience, common s
 
 ## Personal information
 Name: Kyrylo Fedorov
-DoB: August 10, 1977
-Citizenship: Ukraine
-Residence: Kyiv, Ukraine
+
 Email: [kyrylo.fedorov@gmail.com](mailto:kyrylo.fedorov+github.cv@gmail.com)
+
+DoB: August 10, 1977
+
+Citizenship: Ukraine
+
+Residence: Kyiv, Ukraine
+
 
 ## Technical specialization
 
