@@ -17,7 +17,8 @@ Residence: Kyiv, Ukraine
 
 ### javascript
 Preferred way, for a past few years and for nearest feature.
-Full stack, both, server's with `node.js` and browser's side develop.
+For a last two year front-end with React and all around development. 
+Early: full stack, both, server's with `node.js` and browser's side develop.
 Vanilla js and frameworks, such `sails.js` for server and `angular` (version 1.*), backbone, knockout or other for client.
 Have experience with using thirds party API or library for resolving specific issues.
 I'm follower of TDD and prefer to use `mocha`, `chai` and `sinon` to be sure that I write code complies to wrote unit-test and my commits into VCS will not break builds in CI.
@@ -42,7 +43,18 @@ Some development'n'operations experience.
 
 ## Job history
 
-### 10.2014 - present. Contractor at Reaktivate.
+### 11.2016 - 08.2018. Fulltime as Contentmart.com
+Lead front-end developer on Contentmart.com project - content/copywriting marketplace.
+Technologies: `React` UI library, `redux` - application state management library, `react-router` and numbers other React's stack tools and libraries.
+Area of responsobility:
+- front-end architecture solution, revieing and selecting 3thd party components and libraries;
+- setup developemnt environment, e.g. choosing and setup libraries for tooling, linting, testing and build;
+- includes builds into CI;
+- varios maintance chore;
+- code review;
+- development exactly, include (not too many) unit testing with wellknow `mocha`, `chai`, `zinon` and specific for React  `enzyme`;
+ 
+### 10.2014 - 10.2016. Contractor at Reaktivate.
 Developer on project "QuickEstate" - service in assistance in estate's executing.
 Technologies: `node.js` framework `sails` for back-end, `angular` as framework for client side Single Page Application. Build system `webpack`. Unit-testing with `mocha` and `karma-runner` in CI and in TDD with code coverage. Automation QA based on features description with `gherkin`.
 
