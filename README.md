@@ -45,7 +45,7 @@ Some development'n'operations experience.
 
 ### 11.2016 - 08.2018. Fulltime as Contentmart.com
 Front-end developer on Contentmart.com project - content/copywriting marketplace. Unfortunately project closed.
-Technologies: `React` UI, `redux` - application state management, `react-router` and 
+Technologies: `React`, `redux` - application state management, `react-router` and 
  other React's stack tools and libraries.
 
 Area of responsobility:
