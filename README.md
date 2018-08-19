@@ -17,8 +17,8 @@ Residence: Kyiv, Ukraine
 
 ### javascript
 Preferred way, for a past few years and for nearest feature.
-For a last two year front-end with React and all around development. 
-Early: full stack, both, server's with `node.js` and browser's side develop.
+For a last two year: front-end development with React and all around. 
+Early: full stack javascript development, both, server's with `node.js` and browser's side develop.
 Vanilla js and frameworks, such `sails.js` for server and `angular` (version 1.*), backbone, knockout or other for client.
 Have experience with using thirds party API or library for resolving specific issues.
 I'm follower of TDD and prefer to use `mocha`, `chai` and `sinon` to be sure that I write code complies to wrote unit-test and my commits into VCS will not break builds in CI.
@@ -44,15 +44,17 @@ Some development'n'operations experience.
 ## Job history
 
 ### 11.2016 - 08.2018. Fulltime as Contentmart.com
-Lead front-end developer on Contentmart.com project - content/copywriting marketplace.
-Technologies: `React` UI library, `redux` - application state management library, `react-router` and numbers other React's stack tools and libraries.
+Front-end developer on Contentmart.com project - content/copywriting marketplace. Unfortunately project closed.
+Technologies: `React` UI, `redux` - application state management, `react-router` and 
+ other React's stack tools and libraries.
+
 Area of responsobility:
-- front-end architecture solution, revieing and selecting 3thd party components and libraries;
-- setup developemnt environment, e.g. choosing and setup libraries for tooling, linting, testing and build;
-- includes builds into CI;
-- varios maintance chore;
-- code review;
-- development exactly, include (not too many) unit testing with wellknow `mocha`, `chai`, `zinon` and specific for React  `enzyme`;
+- front-end architecture solution, reviewing and selecting 3<sup>thd</sup> party components and libraries;
+- setup developemnt environment, e.g. choosing and setup libraries for tooling, linting, i18n, testing, build, etc.;
+- various project maintance;
+- code reviews;
+- coding, include (not too many) unit testing with wellknown `mocha`, `chai`, `zinon` and specific for React `enzyme`;
+- front-end performance issues: analyzing and improve first contentful/meaningful paint, assets optimize, etc.
  
 ### 10.2014 - 10.2016. Contractor at Reaktivate.
 Developer on project "QuickEstate" - service in assistance in estate's executing.
