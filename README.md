@@ -44,7 +44,8 @@ Some development'n'operations experience.
 ## Job history
 
 ### 11.2016 - 08.2018. Fulltime as Contentmart.com
-Front-end developer on Contentmart.com project - content/copywriting marketplace. Unfortunately project closed.
+Front-end developer on Contentmart.com project - content/copywriting marketplace.
+
 Technologies: `React`, `redux` - application state management, `react-router` and 
  other React's stack tools and libraries.
 
@@ -58,10 +59,12 @@ Area of responsobility:
  
 ### 10.2014 - 10.2016. Contractor at Reaktivate.
 Developer on project "QuickEstate" - service in assistance in estate's executing.
+
 Technologies: `node.js` framework `sails` for back-end, `angular` as framework for client side Single Page Application. Build system `webpack`. Unit-testing with `mocha` and `karma-runner` in CI and in TDD with code coverage. Automation QA based on features description with `gherkin`.
 
 ### 11.2013 - 09.2014. Contractor at ECO&Tech.
 Functional for project "Wind of Travel" - service for planning travels and sharing significant waypoints.
+
 Technologies: `Leaflet` - javascript library for interactive map, `Symfony` - back-end for manage and processing gpx/kml data.
 
 Participated in project "Main Ukraine" - C2C service for home helpers.
