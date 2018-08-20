@@ -43,7 +43,7 @@ Some development'n'operations experience.
 
 ## Job history
 
-### 11.2016 - 08.2018. Fulltime as Contentmart.com
+### 11.2016 - 08.2018. Fulltime at Contentmart.com
 Front-end developer on Contentmart.com project - content/copywriting marketplace.
 
 Technologies: `React`, `redux` - application state management, `react-router` and 
