@@ -1,5 +1,9 @@
+<article class="cv">
+
 # CV. Reviewer and coder.
 I read, understand and write code. In my work I use mind, experience, common sense and suitable software.
+
+<aside class="personal-info">
 
 ## Personal information
 Name: Kyrylo Fedorov
@@ -12,6 +16,9 @@ Citizenship: Ukraine
 
 Residence: Kyiv, Ukraine
 
+</aside>
+
+<section class="tech-spec">
 
 ## Technical specialization
 
@@ -40,6 +47,8 @@ Have experience with tiny framework like `Slim` or `Silex` and with more complex
 ### other skills
 Have some experience with QA automation, I authoring automated tests using `Selenium` on javascript and java.
 Some development'n'operations experience.
+
+</section>
 
 ## Job history
 
@@ -90,3 +99,5 @@ Coursera, [Functional Programming Principles in Scala, 2013](https://drive.googl
 Coursera, [Learn to Program: Crafting Quality Code, 2013](https://drive.google.com/file/d/0ByYwlFfgl5Z9NEEtSjBhQ09BdjQ/view?usp=sharing).
 10Gen, [M101: MongoDB for Developers, 2012](https://drive.google.com/file/d/0ByYwlFfgl5Z9LUlRUWR3cVpKa0E/view?usp=sharing).
 Numbers of other courses and learning program, continuous study new technologies in main domain of interest and in related scope.
+
+</article>
