@@ -17,7 +17,8 @@ Residence: Kyiv, Ukraine
 
 ### javascript
 Preferred way, for a past few years and for nearest feature.
-Full stack, both, server's with `node.js` and browser's side develop.
+For a last two year: front-end development with React and all around. 
+Early: full stack javascript development, both, server's with `node.js` and browser's side develop.
 Vanilla js and frameworks, such `sails.js` for server and `angular` (version 1.*), backbone, knockout or other for client.
 Have experience with using thirds party API or library for resolving specific issues.
 I'm follower of TDD and prefer to use `mocha`, `chai` and `sinon` to be sure that I write code complies to wrote unit-test and my commits into VCS will not break builds in CI.
@@ -42,12 +43,28 @@ Some development'n'operations experience.
 
 ## Job history
 
-### 10.2014 - present. Contractor at Reaktivate.
+### 11.2016 - 08.2018. Fulltime at Contentmart.com
+Front-end developer on Contentmart.com project - content/copywriting marketplace.
+
+Technologies: `React`, `redux` - application state management, `react-router` and 
+ other React's stack tools and libraries.
+
+Area of responsobility:
+- front-end architecture solution, reviewing and selecting 3<sup>thd</sup> party components and libraries;
+- setup developemnt environment, e.g. choosing and setup libraries for tooling, linting, i18n, testing, build, etc.;
+- various project maintance;
+- code reviews;
+- coding, include (not too many) unit testing with wellknown `mocha`, `chai`, `zinon` and specific for React `enzyme`;
+- front-end performance issues: analyzing and improve first contentful/meaningful paint, assets optimize, etc.
+ 
+### 10.2014 - 10.2016. Contractor at Reaktivate.
 Developer on project "QuickEstate" - service in assistance in estate's executing.
+
 Technologies: `node.js` framework `sails` for back-end, `angular` as framework for client side Single Page Application. Build system `webpack`. Unit-testing with `mocha` and `karma-runner` in CI and in TDD with code coverage. Automation QA based on features description with `gherkin`.
 
 ### 11.2013 - 09.2014. Contractor at ECO&Tech.
 Functional for project "Wind of Travel" - service for planning travels and sharing significant waypoints.
+
 Technologies: `Leaflet` - javascript library for interactive map, `Symfony` - back-end for manage and processing gpx/kml data.
 
 Participated in project "Main Ukraine" - C2C service for home helpers.
