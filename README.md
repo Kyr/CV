@@ -2,29 +2,26 @@
 
 <section id="about">
  
-# CV. Reviewer and coder.
-I read, understand and write code. In my work I use mind, experience, common sense and suitable software.
+# CV. Not only coder.
+I consider myself an application developer, who, first of all, delves into the application domain and understands what problem the created functionality should solve. The next, no less important part of my work, I consider the quality of the created code, the indicators of which are testability, supportability and understandability.
 
-<section>
+</section>
  
 <section id="personalInfo">
 
 ## Personal information
-Name: Kyrylo Fedorov
 
-Email: [kyrylo.fedorov@gmail.com](mailto:kyrylo.fedorov+github.cv@gmail.com)
-
-DoB: August 10, 1977
-
-Citizenship: Ukraine
-
-Residence: Kyiv, Ukraine
+- Name: Kyrylo Fedorov
+- Email: [kyrylo.fedorov@gmail.com](mailto:kyrylo.fedorov+github.cv@gmail.com)
+- DoB: August 10, 1977
+- Citizenship: Ukraine
+- Residence: Kyiv, Ukraine
 
 </section>
 
 <section id="technicalSpecialization">
 
-## Technical specialization
+## Proficiency
 
 ### javascript
 Preferred way, for a past few years and for nearest feature.
@@ -64,12 +61,12 @@ Front-end developer on Contentmart.com project - content/copywriting marketplace
 Technologies: `React`, `redux` - application state management, `react-router` and 
  other React's stack tools and libraries.
 
-Area of responsobility:
+Area of responsibility:
 - front-end architecture solution, reviewing and selecting 3<sup>thd</sup> party components and libraries;
-- setup developemnt environment, e.g. choosing and setup libraries for tooling, linting, i18n, testing, build, etc.;
-- various project maintance;
+- setup development environment, e.g. choosing and setup libraries for tooling, linting, i18n, testing, build, etc.;
+- various project maintenance;
 - code reviews;
-- coding, include (not too many) unit testing with wellknown `mocha`, `chai`, `zinon` and specific for React `enzyme`;
+- coding, include (not too many) unit testing with well known `mocha`, `chai`, `zinon` and specific for React `enzyme`;
 - front-end performance issues: analyzing and improve first contentful/meaningful paint, assets optimize, etc.
  
 ### 10.2014 - 10.2016. Contractor at Reaktivate.
