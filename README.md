@@ -10,16 +10,29 @@ I consider myself an application developer, who, first of all, delves into the a
 <section id="personalInfo">
 
 ## Personal information
-
-- Name: Kyrylo Fedorov
+![Kyrylo Fedorov at contentmart.com](/assets/photo.jpg)
+ - Name:
+<span itemprop="name">
+<span itemprop="givenName">Kyrylo</span>
+&nbsp;<span itemprop="familyName">Fedorov</span>
+</span>
 - Email: [kyrylo.fedorov@gmail.com](mailto:kyrylo.fedorov+github.cv@gmail.com)
-- DoB: August 10, 1977
-- Citizenship: Ukraine
-- Residence: Kyiv, Ukraine
+- DoB:
+<span itemprop="birthDate">
+August 10, 1977
+</span>
+- Citizenship:
+<span itemprop="nationality">
+Ukraine
+</span>
+- Residence:
+<span itemprop="homeLocation">
+Kyiv, Ukraine
+</span>
 
 </section>
 
-<section id="technicalSpecialization">
+<section id="proficiency">
 
 ## Proficiency
 
@@ -51,9 +64,9 @@ Some development'n'operations experience.
 
 </section>
 
-<section id="jobHistory">
+<section id="experience">
  
-## Job history
+## Work experience
 
 ### 11.2016 - 08.2018. Fulltime at Contentmart.com
 Front-end developer on Contentmart.com project - content/copywriting marketplace.
@@ -81,7 +94,7 @@ Technologies: `Leaflet` - javascript library for interactive map, `Symfony` - ba
 
 Participated in project "Main Ukraine" - C2C service for home helpers.
 Area of responsibility: business logic on back-end and some front-end issues.
-Technologies: `Symfone`, stored procedure in MySQL, Google Maps API.
+Technologies: `Symfony`, stored procedure in MySQL, Google Maps API.
 
 ### 07.2006 - 11.2013 State enterprise "Information Center" Ministry of Justice of Ukraine.
 Positions in Information Department web-designer, applications programmer, deputy head of department.

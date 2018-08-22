@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+}
+
+h1, h2 {
+	text-transform: uppercase;
+}
+
+h2 {
+	font-size: 1.3em;
+}
+
+.cv {
+	width: 100%;
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	grid-template-rows: minmax(100px, auto);
+	grid-gap: 1em;
+}
+
+#personalInfo {
+	grid-column: 1;
+	grid-row: 1/4;
+	height: 100%;
+
+	h2 {
+		display: none;
+	}
+
+	ul {
+		list-style: none;
+	}
+
+	li {
+		& > :last-of-type {
+			padding-right: 2em;
+			float: right;
+		}
+	}
+
+	img {
+		max-width: 400px;
+	}
+}
+
+#about, #education, #experience, #proficiency {
+	grid-column: 2
+}
