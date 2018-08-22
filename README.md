@@ -10,25 +10,14 @@ I consider myself an application developer, who, first of all, delves into the a
 <section id="personalInfo">
 
 ## Personal information
-![Kyrylo Fedorov at contentmart.com](/assets/photo.jpg)
+![Kyrylo Fedorov at contentmart.com](assets/photo.jpg | width=200)
  - Name:
-<span itemprop="name">
-<span itemprop="givenName">Kyrylo</span>
-&nbsp;<span itemprop="familyName">Fedorov</span>
-</span>
+<span itemprop="name"><span itemprop="givenName">Kyrylo</span>
+&nbsp;<span itemprop="familyName">Fedorov</span></span>
 - Email: [kyrylo.fedorov@gmail.com](mailto:kyrylo.fedorov+github.cv@gmail.com)
-- DoB:
-<span itemprop="birthDate">
-August 10, 1977
-</span>
-- Citizenship:
-<span itemprop="nationality">
-Ukraine
-</span>
-- Residence:
-<span itemprop="homeLocation">
-Kyiv, Ukraine
-</span>
+- DoB: <span itemprop="birthDate">August 10, 1977</span>
+- Citizenship: <span itemprop="nationality">Ukraine</span>
+- Residence: <span itemprop="homeLocation">Kyiv, Ukraine</span>
 
 </section>
 
