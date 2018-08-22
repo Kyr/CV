@@ -1,9 +1,13 @@
 <article class="cv">
 
+<section id="about">
+ 
 # CV. Reviewer and coder.
 I read, understand and write code. In my work I use mind, experience, common sense and suitable software.
 
-<aside class="personal-info">
+<section>
+ 
+<section id="personalInfo">
 
 ## Personal information
 Name: Kyrylo Fedorov
@@ -16,9 +20,9 @@ Citizenship: Ukraine
 
 Residence: Kyiv, Ukraine
 
-</aside>
+</section>
 
-<section class="tech-spec">
+<section id="technicalSpecialization">
 
 ## Technical specialization
 
@@ -50,6 +54,8 @@ Some development'n'operations experience.
 
 </section>
 
+<section id="jobHistory">
+ 
 ## Job history
 
 ### 11.2016 - 08.2018. Fulltime at Contentmart.com
@@ -91,6 +97,10 @@ Responsibilities: development and maintenance of guidelines for software develop
 ### 06.1994 - 02.1995 Small Private Enterprise
 Database operator.
 
+</section>
+
+<section id="education">
+ 
 ## Education
 Graduated from Kyiv Polytechnic Institute in 2001, Bachelor in Microelectronics.
 
@@ -100,4 +110,5 @@ Coursera, [Learn to Program: Crafting Quality Code, 2013](https://drive.google.c
 10Gen, [M101: MongoDB for Developers, 2012](https://drive.google.com/file/d/0ByYwlFfgl5Z9LUlRUWR3cVpKa0E/view?usp=sharing).
 Numbers of other courses and learning program, continuous study new technologies in main domain of interest and in related scope.
 
+</section>
 </article>
