@@ -22,7 +22,6 @@ h2 {
 }
 
 #personalInfo {
-	padding: 1em;
 	grid-column: 1;
 	grid-row: 1/4;
 	height: 100%;
@@ -43,7 +42,7 @@ h2 {
 	}
 
 	img {
-		width: 100%;
+		max-width: 400px;
 	}
 }
 
