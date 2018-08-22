@@ -10,7 +10,7 @@ I consider myself an application developer, who, first of all, delves into the a
 <section id="personalInfo">
 
 ## Personal information
-![Kyrylo Fedorov at contentmart.com](assets/photo.jpg | width=200)
+![Kyrylo Fedorov at contentmart.com](./assets/photo.jpg =200x)
  - Name:
 <span itemprop="name"><span itemprop="givenName">Kyrylo</span>
 &nbsp;<span itemprop="familyName">Fedorov</span></span>
