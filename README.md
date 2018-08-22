@@ -2,7 +2,7 @@
 
 <section id="about">
  
-# CV. Not only coder.
+# CV. Not only coder
 I consider myself an application developer, who, first of all, delves into the application domain and understands what problem the created functionality should solve. The next, no less important part of my work, I consider the quality of the created code, the indicators of which are testability, supportability and understandability.
 
 </section>
