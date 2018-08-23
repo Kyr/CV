@@ -3,7 +3,7 @@
 <section id="about">
  
 # Not only coder
-I consider myself an application developer, who, first of all, care about "getting-thing-done". With this aim, I delves into the application domain to understands: what problem the created functionality should solve. The next, no less important part of my work, I consider the quality of the created code, the indicators of which are testability, supportability and understandability. And last but not least, I understand very well that a successful product is the result of the team's work.
+I consider myself an application developer, whoum, first of all, care about "getting-thing-done". With this aim, I delves into the application domain to understands: what problem the created functionality should solve. The next, no less important part of my work, the quality of the created code, the indicators of which are testability, supportability and understandability. And last but not least, I understand very well that a successful product is the result of the team's work.
 
 </section>
  
