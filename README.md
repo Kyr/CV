@@ -10,7 +10,9 @@ I consider myself an application developer, who, first of all, delves into the a
 <section id="personalInfo">
 
 ## Personal information
-![Kyrylo Fedorov at contentmart.com](./assets/photo_w400.jpg)
+
+<img src="./assets/photo/w300.jpg" alt="Kyrylo Fedorov at contentmart.com" width="200px" />
+
  - Name:
 <span itemprop="name"><span itemprop="givenName">Kyrylo</span>
 &nbsp;<span itemprop="familyName">Fedorov</span></span>
