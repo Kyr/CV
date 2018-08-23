@@ -2,8 +2,8 @@
 
 <section id="about">
  
-# CV. Not only coder
-I consider myself an application developer, who, first of all, delves into the application domain and understands what problem the created functionality should solve. The next, no less important part of my work, I consider the quality of the created code, the indicators of which are testability, supportability and understandability.
+# Not only coder
+I consider myself an application developer, who, first of all, care about "getting-thing-done". And though delves into the application domain and understands what problem the created functionality should solve. The next, no less important part of my work, I consider the quality of the created code, the indicators of which are testability, supportability and understandability. And last, but not least, it's strong understanding that modern application it's not just couple of code and layouts, it's result 
 
 </section>
  
@@ -11,7 +11,7 @@ I consider myself an application developer, who, first of all, delves into the a
 
 ## Personal information
 
-<img src="./assets/photo_w300.jpg" alt="Kyrylo Fedorov at contentmart.com" width="200px" />
+<img id="photo" src="./assets/photo/w300.jpg" alt="Kyrylo Fedorov at contentmart.com" />
 
  - Name:
 <span itemprop="name"><span itemprop="givenName">Kyrylo</span>

@@ -1,46 +1,74 @@
-const {resolve}         = require('path');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
-const getContent        = require('./scripts/content');
+const {resolve}            = require('path');
+const HtmlWebpackPlugin    = require('html-webpack-plugin');
+const CopyWebpackPlugin    = require('copy-webpack-plugin');
+const CleanWebpackPlugin   = require('clean-webpack-plugin');
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const getContent           = require('./scripts/content');
 
-module.exports = {
-  entry:     [
-    './src/index.js',
-    // './src/style.scss',
-  ],
-  output:    {
-    filename: '[name].js',
-    path: resolve(__dirname, 'docs'),
-  },
-  devServer: {
-    contentBase: './docs',
-  },
-  plugins:   [
-    new HtmlWebpackPlugin({
-      template:           './src/index.html',
-      // inject:             false,
-      // content: 'Hello world',
-      templateParameters: {
-        content: getContent(resolve(__dirname, 'README.md')),
-      },
-    }),
-  ],
-  module:    {
-    rules: [
-      {
-        test: /\.scss$/,
-        use:  [
-          'style-loader',
-          {
-            loader:  'css-loader',
-            options: {
-              // modules:        true,
-              // localIdentName: '[local]--[hash:base64:5]',
-              importLoaders:  1,
-            },
-          },
-          'postcss-loader',
-        ],
-      },
+module.exports = (env, argv) => {
+  const prodMode = argv.mode === 'production';
+
+  return {
+    entry:     {
+      app:   './src/index.js',
+      style: './src/style.scss',
+    },
+    output:    {
+      filename: '[name].[hash].js',
+    },
+    devServer: {
+      contentBase: './docs',
+    },
+    plugins:   [
+      new CleanWebpackPlugin(['dist']),
+      new HtmlWebpackPlugin({
+        template:           './src/index.html',
+        // chunks:             ['app'],
+        // inject:             false,
+        templateParameters: {
+          content: getContent(resolve(__dirname, 'README.md')),
+        },
+      }),
+      new CopyWebpackPlugin([{
+        from:   'assets/photo/',
+        to:     'assets/photo/',
+        toType: 'dir',
+        /*
+              // TODO
+              transform (content, path) {
+                return optimize(content)
+              // or
+                return responsive(content, srcset)
+              // or composition of above
+              }
+        */
+      }], {/*options*/}),
+      new MiniCssExtractPlugin({
+        filename:      prodMode ? '[name].[hash].css' : '[name].css',
+        chunkFilename: prodMode ? '[id].[hash].css' : '[id].css',
+      }),
     ],
-  },
+    module:    {
+      rules: [
+        {
+          test: /\.scss$/,
+          use:  [
+            prodMode ? MiniCssExtractPlugin.loader : 'style-loader',
+            {
+              loader:  'css-loader',
+              options: {
+                /*
+                // TODO: which modules preferred, this one or postCSS?
+                              modules:        true,
+                              localIdentName: '[local]--[hash:base64:5]',
+                */
+                importLoaders: 1,
+              },
+            },
+            'postcss-loader',
+          ],
+        },
+      ],
+    },
+  };
 };
