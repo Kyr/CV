@@ -3,6 +3,8 @@ const HtmlWebpackPlugin    = require('html-webpack-plugin');
 const CopyWebpackPlugin    = require('copy-webpack-plugin');
 const CleanWebpackPlugin   = require('clean-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const WorkboxPlugin = require('workbox-webpack-plugin');
+
 const getContent           = require('./scripts/content');
 
 module.exports = (env, argv) => {
@@ -52,6 +54,10 @@ module.exports = (env, argv) => {
       new MiniCssExtractPlugin({
         filename:      prodMode ? '[name].[hash].css' : '[name].css',
         chunkFilename: prodMode ? '[id].[hash].css' : '[id].css',
+      }),
+      new WorkboxPlugin.GenerateSW({
+        clientsClaim: true,
+        skipWaiting: true,
       }),
     ],
     module:    {
