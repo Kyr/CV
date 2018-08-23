@@ -11,7 +11,7 @@ I consider myself an application developer, who, first of all, delves into the a
 
 ## Personal information
 
-<img src="./assets/photo/w300.jpg" alt="Kyrylo Fedorov at contentmart.com" width="200px" />
+<img src="./assets/photo_w300.jpg" alt="Kyrylo Fedorov at contentmart.com" width="200px" />
 
  - Name:
 <span itemprop="name"><span itemprop="givenName">Kyrylo</span>
