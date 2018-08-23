@@ -11,7 +11,7 @@ script:
   - npm run build
 
 after_success:
-  - ls dist/
+  - ls -la dist/
 
 deploy:
   verbose: true
