@@ -10,6 +10,7 @@
   "scripts": {
     "start": "webpack-dev-server --mode=development",
     "build": "webpack --mode=production",
+    "postbuild": "git add dist/; git commit -m 'Commit dist/'",
     "test": "echo \"Error: no test specified\" && exit 0"
   },
   "repository": {
