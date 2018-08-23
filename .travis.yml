@@ -7,13 +7,16 @@ cache:
   directories:
     - "node_modules"
 
-script:
+scripts:
   - build
+
+after_success:
+  - ls dist/
 
 deploy:
   verbose: true
   provider: pages
-  local-dir: dist
+  local-dir: dist/
   skip-cleanup: true
   github-token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
   keep-history: true
