@@ -12,6 +12,7 @@ script:
 
 after_success:
   - ls -la dist/
+  - git add dist/
 
 deploy:
   verbose: true
