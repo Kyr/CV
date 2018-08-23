@@ -9,10 +9,16 @@ module.exports = (env, argv) => {
   const prodMode = argv.mode === 'production';
 
   return {
+    entry:     [
+      './src/index.js',
+      // style: './src/style.scss',
+    ],
+/*
     entry:     {
       app:   './src/index.js',
       style: './src/style.scss',
     },
+*/
     output:    {
       filename: '[name].[hash].js',
     },
@@ -20,7 +26,7 @@ module.exports = (env, argv) => {
       contentBase: './docs',
     },
     plugins:   [
-      new CleanWebpackPlugin(['dist']),
+      new CleanWebpackPlugin(['dist/*.*']),
       new HtmlWebpackPlugin({
         template:           './src/index.html',
         // chunks:             ['app'],
