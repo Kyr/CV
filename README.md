@@ -7,17 +7,22 @@ I consider myself an application developer, whoum, first of all, care about "get
 
 </section>
  
-<section id="personalInfo">
+<section id="personalInfo" itemscope itemtype="http://schema.org/Person" class=""h-card vcard>
 
 ## Personal information
 
-<img id="photo" src="./assets/photo/w300.jpg" alt="Kyrylo Fedorov at contentmart.com" />
+<picture id="photo" itemprop="photo" alt="Kyrylo Fedorov at contentmart.com" class="photo">
+	<source media="(max-width: 640px)" srcset="./assets/photo/small.jpg">
+	<source media="(min-width: 800px)" srcset="./assets/photo/w300.jpg">
+	<source media="(min-width: 1024px)" srcset="./assets/photo/w400.jpg">
+	<img src="./assets/photo/w400.jpg" />
+</picture>
 
  - Name:
-<span itemprop="name"><span itemprop="givenName">Kyrylo</span>
+<span itemprop="name" class="fn"><span itemprop="givenName">Kyrylo</span>
 &nbsp;<span itemprop="familyName">Fedorov</span></span>
-- Email: [kyrylo.fedorov@gmail.com](mailto:kyrylo.fedorov+github.cv@gmail.com)
-- DoB: <span itemprop="birthDate">August 10, 1977</span>
+- Email: <span class="email">[kyrylo.fedorov@gmail.com](mailto:kyrylo.fedorov+github.cv@gmail.com)</span>
+- DoB: <time datetime="1977-08-10" itemprop="birthDate" class="bday">August 10, 1977</time>
 - Citizenship: <span itemprop="nationality">Ukraine</span>
 - Residence: <span itemprop="homeLocation">Kyiv, Ukraine</span>
 
