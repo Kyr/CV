@@ -9,8 +9,8 @@
   },
   "scripts": {
     "start": "webpack-dev-server --mode=development",
+    "debug:build": "node $NODE_DEBUG_OPTION ./node_modules/.bin/webpack --mode=production",
     "build": "webpack --mode=production",
-    "_postbuild": "ls dist; git add dist/; git commit -m 'Commit dist/'",
     "test": "echo \"Error: no test specified\" && exit 0"
   },
   "repository": {
@@ -18,14 +18,15 @@
     "url": "git+https://github.com/Kyr/CV.git"
   },
   "keywords": [
-    "cv"
+    "cv",
+    "resume"
   ],
   "author": "Kyrylo Fedorov",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Kyr/CV/issues"
   },
-  "homepage": "https://github.com/Kyr/CV#readme",
+  "homepage": "https://kyr.github.io/CV/",
   "devDependencies": {
     "autoprefixer": "^9.1.3",
     "clean-webpack-plugin": "^0.1.19",
