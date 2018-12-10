@@ -3,11 +3,11 @@
 <section id="about">
  
 # Not only coder
-I consider myself an application developer, whoum, first of all, care about "getting-thing-done". With this aim, I delves into the application domain to understands: what problem the created functionality should solve. The next, no less important part of my work, the quality of the created code, the indicators of which are testability, supportability and understandability. And last but not least, I understand very well that a successful product is the result of the team's work.
+I consider myself an application developer, whom, first of all, care about "getting-things-done". With this aim, I delve into the application domain to understands: what problem the created functionality should solve. The next, no less important part of my work, the quality of the created code, the indicators of which are testability, supportability, and understandability. And last but not least, I understand very well that a successful product is the result of the team's work.
 
 </section>
  
-<section id="personalInfo" itemscope itemtype="http://schema.org/Person" class=""h-card vcard>
+<section id="personalInfo" itemscope itemtype="http://schema.org/Person" class="h-card vcard">
 
 ## Personal information
 
@@ -33,30 +33,30 @@ I consider myself an application developer, whoum, first of all, care about "get
 ## Proficiency
 
 ### javascript
-Preferred way, for a past few years and for nearest feature.
-For a last two year: front-end development with React and all around. 
+Preferred way, for a past few years and for the nearest feature.
+For a last two years: front-end development with React and all around. 
 Early: full stack javascript development, both, server's with `node.js` and browser's side develop.
-Vanilla js and frameworks, such `sails.js` for server and `angular` (version 1.*), backbone, knockout or other for client.
+Vanilla js and frameworks, such `sails.js` for server and `angular` (version 1.*), backbone, knockout or other for client side.
 Have experience with using thirds party API or library for resolving specific issues.
 I'm follower of TDD and prefer to use `mocha`, `chai` and `sinon` to be sure that I write code complies to wrote unit-test and my commits into VCS will not break builds in CI.
-And of course I have some experience with all around:
+And of course, I have some experience with all around:
  - automated build tools: webpack, gulp, grunt;
  - layout with html or different template engines;
  - styling with scss, less and native css;
 
 ### database
-I have experience with using various database directly or via different ORMs.
+I have experience with using the various database directly or via different ORMs.
 Both, *relation database*, like `PostgreSQL`, `MySQL` and *noSQL*, like `MongoDB`. Also, very early, DBMS like `FoxPro`, `Clarion`, etc.
-I can read and write native SQL query, and optimizing heavy query. Also have some experience with writing stored procedures.
+I can read and write native SQL query, and optimizing heavy query. Also, have some experience with writing stored procedures.
 
 ### php
-It's almost background experience, for now I have not plan to code on it again.
+It's almost background experience, for now, I have not to plan to code on it again.
 Early I work with numbers of services write on PHP, native and with frameworks.
 Have experience with tiny framework like `Slim` or `Silex` and with more complex `Symfony`.
 
 ### other skills
 Have some experience with QA automation, I authoring automated tests using `Selenium` on javascript and java.
-Some development'n'operations experience.
+Some devOps experience.
 
 </section>
 
