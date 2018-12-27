@@ -15,6 +15,7 @@ I consider myself an application developer, whom, first of all, care about "gett
 	<source media="(max-width: 640px)" srcset="./assets/photo/small.jpg">
 	<source media="(min-width: 800px)" srcset="./assets/photo/w300.jpg">
 	<source media="(min-width: 1024px)" srcset="./assets/photo/w400.jpg">
+	<source media="print and (min-resolution: 300dpi)" srcset="./assets/photo/3x4.jpg">
 	<img src="./assets/photo/w400.jpg" />
 </picture>
 
