@@ -12,6 +12,19 @@ h1 {
   font-size: 1.7em;
 }
 
+@media print {
+    #proficiency h3 {
+      display: inline-block;
+      float: left;
+      margin: 0 1rem;
+      min-width: 6rem;
+    }
+
+  #photo {
+    height: 100%;
+  }
+}
+
 .cv {
   width: 100%;
   display: -ms-grid;
@@ -22,6 +35,26 @@ h1 {
       grid-template-rows: minmax(100px, auto);
   grid-gap: 1em;
 }
+
+@media print {
+
+.cv {
+    display: block;
+
+    width: initial;
+    min-height: initial;
+    margin: 0;
+    padding: 0;
+    border: initial;
+    border-radius: initial;
+    box-shadow: initial;
+    background: initial
+}
+
+    .cv #experience {
+      page-break-before: always;
+    }
+  }
 
 @media screen and (max-width: 640px) {
 
@@ -34,6 +67,12 @@ h1 {
     .cv section {
       margin: 2vw;
     }
+
+      @media print {
+    .cv section {
+        margin: 0 auto 2rem
+    }
+      }
     .cv h1, .cv h2 {
       text-align: center;
     }
@@ -73,6 +112,13 @@ h1 {
     }
   }
 
+@media print {
+
+#personalInfo {
+    display: flex
+}
+  }
+
 #about, #education, #experience, #proficiency {
   -ms-grid-column: 2;
   -ms-grid-column-span: 2;
@@ -94,6 +140,7 @@ h1 {
     grid-column: 1;
     padding: 0;
   }
+
     #personalInfo img {
       margin: 1em 0;
       max-width: 20vw;
@@ -102,12 +149,22 @@ h1 {
     #personalInfo ul {
       padding: 0 2vw;
     }
+
       #personalInfo ul li {
         visibility: collapse;
       }
+
+        @media print {
+
+      #personalInfo ul li {
+          visibility: visible
+      }
+        }
+
         #personalInfo ul li > :last-of-type {
           padding: 0;
         }
+
         #personalInfo ul li * {
           visibility: visible;
         }
